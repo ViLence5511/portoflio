@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
 
 :root {
   --primaryTextColor: #232e35;
@@ -69,14 +69,13 @@ a {
   }
 }
 
-
 /* Buttons */
 .btn {
   padding: 1rem 1.5rem;
   background: white;
   border: 1.5px solid var(--borderColor);
   cursor: pointer;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .btn:hover {
@@ -282,9 +281,9 @@ nav ul li a {
 }
 
 .portfolio-tags div {
-  font-size: .9rem;
+  font-size: 0.9rem;
   border: 1px solid var(--borderColor);
-  padding: .4rem 1rem;
+  padding: 0.4rem 1rem;
   color: var(--secondaryTextColor);
 }
 
@@ -309,7 +308,6 @@ nav ul li a {
   padding: 0 0.7rem;
 }
 
-
 .education .line div {
   width: 2px;
   height: 100%;
@@ -318,7 +316,7 @@ nav ul li a {
 }
 
 .education-info p {
-  margin: .6rem 0 1.4rem;
+  margin: 0.6rem 0 1.4rem;
 }
 
 .education-years {
@@ -435,7 +433,7 @@ footer {
 }
 
 .footer-icons a {
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
 }
 
 .footer-icons svg {
@@ -443,5 +441,18 @@ footer {
 }
 
 .footer-icons a:hover svg {
-  fill: #000
+  fill: #000;
+}
+
+.container-contact {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-left {
+  width: 50%;
+}
+
+.contact-right {
+  width: 50%;
 }
